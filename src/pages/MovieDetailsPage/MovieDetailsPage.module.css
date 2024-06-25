@@ -1,0 +1,48 @@
+.componentContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .button{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border: none;
+    background: inherit;
+    text-decoration: none;
+    color: black;
+  }
+  .button:hover ,  .link:hover {
+    color: blue;
+  }
+  .image {
+    width: 200px;
+    height: auto;
+  }
+  
+  .link {
+    display: block;
+    text-decoration: none;
+    color: #000;
+  }
+  
+ .container{
+  display: flex;
+    gap: 16px;
+ }
+.detailsContainer{
+  display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.subTitle, .title{
+  font-weight: 700;
+}
+.title{
+  font-size: 19px;
+}
+.active {
+  font-weight: bold;
+  color: blue;
+}
